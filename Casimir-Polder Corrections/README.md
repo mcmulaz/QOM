@@ -1,2 +1,3 @@
 Inside of the Casimir-Polder Corrections folder there is a mof_free_energy_fit.py that produces the fit shown in section V of the paper. You can download this python file into a folder, and within that same folder open up a notebook and type 'run mof_free_energy_fit.py --output-dir mof_fit_output --show'
 This will produce the values of Omega_A, S_W, and Omega_W. It will also produce a plot of the AMOF curve verses the calculations from Babb et al. 
+There is also a file called AMOF_three_parameter_scan.py. You can run it similar to above, and performs a full 3 parameter fit instead of the profile scan performed by the above code. The purpose of this additional code is to show that for different initial configurations, the plasma model is preferred. 
